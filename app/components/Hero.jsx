@@ -21,7 +21,7 @@ const Hero = () => {
           </Reveal>
           <Reveal from={50} delay={0.5}>
             <p className="xl:text-2xl text-xl text-justify mb-5">
-            with a passion for crafting exceptional digital experiences. Specializing in full-stack development, I deliver stunning, pixel-perfect websites and interactive applications that drive innovation and user engagement. With a meticulous approach to both code and design, I ensure seamless functionality and aesthetic excellence. Let’s connect to explore how we can bring your next project to life.
+            I am dedicated to developing exceptional digital experiences. My expertise in full-stack development enables me to create robust, pixel-perfect websites and interactive applications that enhance user engagement and drive technological innovation. I take a detail-oriented approach to ensure that every aspect of the software I build functions flawlessly. Let&apos;s connect to discuss how my technical skills can contribute to the success of your next project.
             </p>
           </Reveal>
           {/* BUTTON */}
