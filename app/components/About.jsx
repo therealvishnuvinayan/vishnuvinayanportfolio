@@ -49,16 +49,14 @@ const About = () => {
             <Reveal from={100}>
               <p>
                 My journey in <b>Web Development</b> has equipped me with{" "}
-                <b>JavaScript</b>. I love to
-                {/*  eslint-disable-next-line react/no-unescaped-entities */}
-                design and develop creative & modern web applications, and I'm
-                always eager to work with passion & timely.
+                <b>JavaScript</b>. I love to design and develop creative & modern web applications, and
+                I'm always eager to work with passion & timely.
               </p>
             </Reveal>
             <div className="mt-8 flex flex-col sm:flex-row gap-8 sm:items-center">
               <Reveal from={100}>
                 <a
-                  href="/assets/images/sample.pdf"
+                  href="/assets/images/Vishnu's-Resume.pdf"
                   className="btn-primary btn flex items-center gap-2"
                   download
                 >
