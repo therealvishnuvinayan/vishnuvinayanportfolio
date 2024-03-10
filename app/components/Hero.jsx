@@ -21,7 +21,7 @@ const Hero = () => {
           </Reveal>
           <Reveal from={50} delay={0.5}>
             <p className="xl:text-2xl text-xl text-justify mb-5">
-            I am a passionate Senior Software Engineer specialized in building stunning pixel-perfect interactive websites and applications
+            with a passion for crafting exceptional digital experiences. Specializing in full-stack development, I deliver stunning, pixel-perfect websites and interactive applications that drive innovation and user engagement. With a meticulous approach to both code and design, I ensure seamless functionality and aesthetic excellence. Let’s connect to explore how we can bring your next project to life.
             </p>
           </Reveal>
           {/* BUTTON */}

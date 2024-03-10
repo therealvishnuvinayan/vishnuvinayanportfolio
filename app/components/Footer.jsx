@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="container flex flex-col items-center text-center md:gap-8 gap-6">
         <div>
           <Link href="#home" className="w-44">
-            <Image src={Logo} alt="Logo" />
+            <Image src={Logo} alt="Logo" width={70} />
           </Link>
         </div>
 

@@ -26,7 +26,7 @@ const Header = () => {
         <Reveal from={20}>
           <div className="flex items-center justify-between gap-12 w-full py-5 lg:py-0">
             <Link href="#home" className="w-44">
-              <Image src={Logo} alt="Logo" />
+              <Image src={Logo} alt="Logo" width={70} />
             </Link>
 
             <button
