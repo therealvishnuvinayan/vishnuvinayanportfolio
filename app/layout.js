@@ -5,17 +5,20 @@ import CustomCursor from "./components/CustomCursor";
 import { ScrollToTop } from "./components/ScrollToTop";
 
 export const metadata = {
-  title: "Snapix - Modern TailwindCSS Personal Portfolio React Nextjs Template",
+  title: "Vishnu Vinayan - Portfolio",
   description:
-    "Snapix: Next.js 13+, React, TailwindCSS v3+ personal portfolio template. Light/Dark themes, responsive design, easy customization, clean code, Google Fonts, 24/7 support.",
+    "Welcome to the personal portfolio of Vishnu Vinayan, showcasing a professional journey and projects. Dive into a portfolio that blends expertise in technology with a passion for innovation.",
   keywords: [
-    "Next.js",
-    "React.js",
-    "JavaScript",
-    "Tailwind CSS",
-    "Personal Portfolio",
-    "Responsive Design",
-    "Clean Code",
+    "Vishnu Vinayan",
+    "Portfolio",
+    "Software Engineer",
+    "Web Developer",
+    "Technology Enthusiast",
+    "Innovative Solutions",
+    "Professional Journey",
+    "Project Showcase",
+    "Creativity",
+    "Tech Industry",
   ],
 };
 

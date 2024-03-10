@@ -3,7 +3,6 @@ import Link from "next/link";
 import { BsArrowRightShort } from "react-icons/bs";
 
 const PortfolioItem = ({ project }) => {
-  console.log("##project", project);
   return (
     <div className="w-full flex flex-col border border-solid dark:border-primary border-gray-300 border-opacity-20 rounded-md relative group shadow">
       <div className="absolute inset-0 rounded-md flex justify-end p-2">
