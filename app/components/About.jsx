@@ -40,7 +40,7 @@ const About = () => {
                 <span className="text-3xl text-primary font-medium">
                   Welcome! I am Vishnu Vinayan,
                 </span>{" "}
-                a dedicated and experienced <b>Fullstack Web Developer</b>. My
+                a dedicated and experienced <b>Senior Software Engineer</b>. My
                 passion lies in crafting robust and user-friendly web solutions
                 that seamlessly integrate both the front-end and back-end
                 aspects of a project.

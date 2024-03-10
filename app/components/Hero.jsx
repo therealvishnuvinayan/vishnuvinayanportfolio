@@ -16,12 +16,12 @@ const Hero = () => {
             <h2 className="xl:text-6xl text-3xl font-semibold mb-4 tracking-widest">
               {/*  eslint-disable-next-line react/no-unescaped-entities */}
               Hello I'm Vishnu Vinayan a{" "}
-              <span className="text-primary">Full Stack Developer</span>
+              <span className="text-primary">Senior Software Engineer</span>
             </h2>
           </Reveal>
           <Reveal from={50} delay={0.5}>
             <p className="xl:text-2xl text-xl text-justify mb-5">
-            I am a passionate Full Stack developer specialized in building stunning pixel-perfect interactive websites and applications
+            I am a passionate Senior Software Engineer specialized in building stunning pixel-perfect interactive websites and applications
             </p>
           </Reveal>
           {/* BUTTON */}
