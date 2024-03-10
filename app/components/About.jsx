@@ -50,7 +50,7 @@ const About = () => {
               <p>
                 My journey in <b>Web Development</b> has equipped me with{" "}
                 <b>JavaScript</b>. I love to design and develop creative & modern web applications, and
-                I'm always eager to work with passion & timely.
+                I am always eager to work with passion & timely.
               </p>
             </Reveal>
             <div className="mt-8 flex flex-col sm:flex-row gap-8 sm:items-center">
