@@ -4,7 +4,8 @@ import TextInput, { TextAreaInput } from "./Input";
 import Title from "./Title";
 import SocialButton from "./SocialButton";
 import Reveal from "./Reveal";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import emailjs from "emailjs-com";
 
 function ContactInfo({ title, content }) {
   return (
@@ -18,6 +19,10 @@ function ContactInfo({ title, content }) {
 }
 
 const Contact = () => {
+  useEffect(() => {
+    emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_API);
+  }, []);
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -42,13 +47,52 @@ const Contact = () => {
     },
   ];
 
+  const clearError = () => {
+    setTimeout(() => {
+      setError(null);
+    }, 2000);
+  };
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
+  const [error, setError] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+    const { name, email, subject, message, template } = formData;
+
+    if (
+      name.length === 0 ||
+      email.length === 0 ||
+      // subject.length === 0 ||
+      message.length === 0
+    ) {
+      setError(true);
+      clearError();
+    } else {
+      emailjs
+        .send(
+          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+          formData,
+          process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_API
+        )
+        .then(
+          (response) => {
+            setError(false);
+            clearError();
+            setFormData({
+              name: "",
+              email: "",
+              message: "",
+            });
+          },
+          (err) => {
+            console.log(err.text);
+          }
+        );
+    }
   };
 
   return (
