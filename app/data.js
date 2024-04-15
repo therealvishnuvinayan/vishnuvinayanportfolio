@@ -55,6 +55,7 @@ import Syook from "@/public/assets/images/portfolio/syook.png";
 import Jld from "@/public/assets/images/portfolio/jld.png";
 import PraveenJewels from "@/public/assets/images/portfolio/praveen-jewels.png";
 import Jpd from "@/public/assets/images/portfolio/jpd.png";
+import Brainwave from "@/public/assets/images/portfolio/brainwave.png";
 
 import TestimonalImg from "@/public/assets/images/testimonial-img-dimention.jpg";
 
@@ -341,6 +342,15 @@ export const servicesData = [
 ];
 
 export const projectsData = [
+  {
+    id: 0,
+    title: "Brainwave",
+    category: "Websites",
+    description: "NextJS Tailwind Modern Landing page",
+    image: Brainwave,
+    link: "https://brainwave-fawn.vercel.app/",
+  },
+
   {
     id: 1,
     title: "Nysaa",

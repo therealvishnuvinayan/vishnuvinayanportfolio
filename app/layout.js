@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         <ScrollToTop />
 
         {/* THEME SWITHER */}
-        <Switcher />
+        {/* <Switcher /> */}
 
         {/* CUSTOM CURSOR */}
         <CustomCursor />
