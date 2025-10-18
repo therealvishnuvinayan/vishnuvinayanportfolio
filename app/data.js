@@ -68,6 +68,32 @@ import PraveenJewels from "@/public/assets/images/portfolio/praveen-jewels.png";
 import Jpd from "@/public/assets/images/portfolio/jpd.png";
 import Brainwave from "@/public/assets/images/portfolio/brainwave.png";
 import TestimonalImg from "@/public/assets/images/testimonial-img-dimention.jpg";
+import BambooAdminMarketPlace from "@/public/assets/images/portfolio/bamboo-admin-marketplace.png";
+import GTIAdminDashboard from "@/public/assets/images/portfolio/GTI-dashboard.png";
+import BambooAdminDashboard from "@/public/assets/images/portfolio/bamboo-admin-dashboard.png";
+import RMKAdminDashboard from "@/public/assets/images/portfolio/RMK-admin-dashboard.png";
+import ZyypherWebsite from "@/public/assets/images/portfolio/zyypher-website.png";
+import TamanaAdminDashboard from "@/public/assets/images/portfolio/tamana-admin-dashboard.png";
+import TamanaBinanceMiniApp from "@/public/assets/images/portfolio/tamana-binance-mini-app.png";
+import RMKExpertsWebsite from "@/public/assets/images/portfolio/rmkexperts-website.png";
+import ZtoiqWebsite from "@/public/assets/images/portfolio/ztoiq-website.png";
+import ZtoiqShopifyWebsite from "@/public/assets/images/portfolio/ztoiq-shopify-website.png";
+import IncentiWebsite from "@/public/assets/images/portfolio/incenti-website.png";
+import BamboocardWebsite from "@/public/assets/images/portfolio/bamboo-card-website.png";
+import MIGulfWebsite from "@/public/assets/images/portfolio/mi-gulf-website.png";
+import AESGWebsite from "@/public/assets/images/portfolio/aesg-website.png";
+import GlobalGatewaysWebsite from "@/public/assets/images/portfolio/global-gateways-website.png";
+import AvrilsqsWebsite from "@/public/assets/images/portfolio/avrilsqs-website.png";
+import AdmireDentalWebsite from "@/public/assets/images/portfolio/admire-dental-website.png";
+import ArunaMusicalWebsite from "@/public/assets/images/portfolio/aruna-musical-website.png";
+import EuromechanicalWebsite from "@/public/assets/images/portfolio/euromechanical-website.png";
+import SigmatoWebsite from "@/public/assets/images/portfolio/sigmato-website.png";
+import DCTWebsite from "@/public/assets/images/portfolio/dct-website.png";
+import PyrumusWebsite from "@/public/assets/images/portfolio/pyrumus-website.png";
+
+
+
+
 
 // -------- NAV --------
 export const navItems = [
@@ -209,19 +235,12 @@ export const servicesData = [
 
 // -------- PROJECTS --------
 export const projectsData = [
-  {
-    id: 0,
-    title: "Brainwave",
-    category: "Website",
-    description: "Next.js + Tailwind modern landing page",
-    image: Brainwave,
-    link: "https://brainwave-fawn.vercel.app/",
-  },
+  // ——— High / flagship ———
   {
     id: 1,
     title: "Nysaa",
     category: "Web App",
-    description: "Next.js e-commerce web app",
+    description: "Next.js ecommerce platform (React stack)",
     image: Nysaa,
     link: "https://nysaa.com/",
   },
@@ -229,15 +248,15 @@ export const projectsData = [
     id: 2,
     title: "Longines",
     category: "Web App",
-    description: "Next.js e-commerce web app",
+    description: "React ecommerce experience for a global luxury brand",
     image: Longines,
     link: "https://www.longines.com/",
   },
   {
     id: 3,
-    title: "Brands For Less",
+    title: "Brands For Less (Web)",
     category: "Web App",
-    description: "Next.js e-commerce web app",
+    description: "React ecommerce at scale for the Middle East retail leader",
     image: BrandsForLess,
     link: "https://www.brandsforless.com/en-ae/",
   },
@@ -245,20 +264,80 @@ export const projectsData = [
     id: 4,
     title: "Brands For Less (iOS)",
     category: "Mobile App",
-    description: "React Native e-commerce iOS app",
+    description: "React Native shopping app for iOS",
     image: BrandsForLessIos,
     link: "https://apps.apple.com/ae/app/brands-for-less-shopping-app/id1039840915",
   },
   {
     id: 5,
-    title: "Brands For Less (Android)",
-    category: "Mobile App",
-    description: "React Native e-commerce Android app",
-    image: BrandsForLessAndroid,
-    link: "https://play.google.com/store/apps/details?id=ae.brandsforless.android&pli=1",
+    title: "Zyypher Website",
+    category: "Website",
+    description: "Next.js + Tailwind marketing site (from scratch)",
+    image: ZyypherWebsite,
+    link: "https://www.zyypher.com/",
   },
   {
     id: 6,
+    title: "Brainwave Landing Page",
+    category: "Website",
+    description: "Polished Next.js + Tailwind single-page landing",
+    image: Brainwave,
+    link: "https://brainwave-fawn.vercel.app/",
+  },
+
+  // ——— New admin dashboards ———
+  {
+    id: 7,
+    title: "RMK Admin Dashboard",
+    category: "Web App",
+    description: "Next.js + Tailwind admin; Neon Postgres backend",
+    image: RMKAdminDashboard,
+    link: "https://rmk-dashboard.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Gulbahar GTI Admin Dashboard",
+    category: "Web App",
+    description: "Next.js + Tailwind full-stack; Vercel + NeonDB",
+    image: GTIAdminDashboard,
+    link: "https://gti-rho.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Bamboo Marketplace Admin Dashboard",
+    category: "Web App",
+    description: "Next.js + Tailwind admin for marketplace ops (.NET + AWS)",
+    image: BambooAdminMarketPlace,
+    link: "https://admin-mp.dev2.bamboocardportal.com/",
+  },
+  {
+    id: 10,
+    title: "Bamboo Admin Dashboard",
+    category: "Web App",
+    description: "React (CSS) admin dashboard (.NET + AWS backend)",
+    image: BambooAdminDashboard,
+    link: "https://gti-rho.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "Tamana Admin Dashboard",
+    category: "Web App",
+    description: "React + Tailwind admin dashboard (.NET + AWS)",
+    image: TamanaAdminDashboard,
+    link: "https://tamana-admin.bamboocardportal.com/",
+  },
+  {
+    id: 12,
+    title: "Tamana Binance Mini App",
+    category: "Web App",
+    description: "React + Tailwind mini-app (.NET + AWS)",
+    image: TamanaBinanceMiniApp,
+    link: "https://tamana-admin.bamboocardportal.com/",
+  },
+
+  // ——— Mid / variety ———
+  {
+    id: 13,
     title: "BFL Logistics",
     category: "Mobile App",
     description: "React Native internal logistics Android app",
@@ -266,38 +345,161 @@ export const projectsData = [
     link: "https://www.youtube.com/watch?v=DGtpIWC0mgM",
   },
   {
-    id: 7,
-    title: "Syook",
-    category: "Web App",
-    description: "React web app",
-    image: Syook,
-    link: "https://www.syook.com/",
+    id: 14,
+    title: "RMK Experts Website",
+    category: "Website",
+    description: "Next.js corporate site (Bootstrap)",
+    image: RMKExpertsWebsite,
+    link: "https://www.rmkexperts.com/",
   },
   {
-    id: 8,
-    title: "JLDevelop",
-    category: "Web App",
-    description: "React web app",
-    image: Jld,
-    link: "https://jldevelop.com/",
+    id: 15,
+    title: "Ztoiq Website",
+    category: "Website",
+    description: "React/Bootstrap marketing site",
+    image: ZtoiqWebsite,
+    link: "https://ztoiq.vercel.app/",
   },
   {
-    id: 9,
+    id: 16,
+    title: "Ztoiq Shopify Store",
+    category: "Website",
+    description: "Shopify ecommerce storefront",
+    image: ZtoiqShopifyWebsite,
+    link: "https://ztoiq.com/",
+  },
+
+  // ——— Lower priority / older ———
+  {
+    id: 17,
+    title: "Incenti Website",
+    category: "Website",
+    description: "WordPress marketing site",
+    image: IncentiWebsite,
+    link: "https://www.incenti.me/",
+  },
+  {
+    id: 18,
+    title: "Bamboo Card Website",
+    category: "Website",
+    description: "WordPress corporate site",
+    image: BamboocardWebsite,
+    link: "https://www.bamboo-card.com/",
+  },
+  {
+    id: 19,
     title: "Praveen Jewels",
     category: "Website",
-    description: "React marketing site",
+    description: "WordPress marketing site",
     image: PraveenJewels,
     link: "https://praveenjewels.com/",
   },
   {
-    id: 10,
+    id: 20,
     title: "JPD Agency",
     category: "Website",
-    description: "React marketing site",
+    description: "WordPress marketing site",
     image: Jpd,
     link: "https://www.jpd.agency/",
   },
+  {
+    id: 21,
+    title: "Syook",
+    category: "Web App",
+    description: "React web app (earlier contribution)",
+    image: Syook,
+    link: "https://www.syook.com/",
+  },
+  {
+    id: 22,
+    title: "AESG Website",
+    category: "Website",
+    description: "WordPress corporate site",
+    image: AESGWebsite,
+    link: "https://aesg.com/",
+  },
+  {
+    id: 23,
+    title: "MI Gulf Services Website",
+    category: "Website",
+    description: "WordPress corporate site",
+    image: MIGulfWebsite,
+    link: "https://www.migulfservices.com/",
+  },
+  {
+    id: 24,
+    title: "Admire Dental Website",
+    category: "Website",
+    description: "WordPress site",
+    image: AdmireDentalWebsite,
+    link: "https://admiredental.com/",
+  },
+  {
+    id: 25,
+    title: "Sigmato Website",
+    category: "Website",
+    description: "WordPress corporate site",
+    image: SigmatoWebsite,
+    link: "https://sigmato.com/",
+  },
+  {
+    id: 26,
+    title: "DCT Academy Website",
+    category: "Website",
+    description: "React training academy website",
+    image: DCTWebsite,
+    link: "https://www.dctacademy.com/",
+  },
+  {
+    id: 27,
+    title: "Pyrumas Website",
+    category: "Website",
+    description: "WordPress company website",
+    image: PyrumusWebsite,
+    link: "https://pyrumas.com/",
+  },
+  {
+    id: 28,
+    title: "Avril SQS Website",
+    category: "Website",
+    description: "WordPress site",
+    image: AvrilsqsWebsite,
+    link: "https://avrilsqs.com/",
+  },
+  {
+    id: 29,
+    title: "Global Gateways Website",
+    category: "Website",
+    description: "Static/HTML site (archive)",
+    image: GlobalGatewaysWebsite,
+    link: "https://globalgateways.co.in/",
+  },
+  {
+    id: 30,
+    title: "Aruna Musical Website",
+    category: "Website",
+    description: "Static/HTML site",
+    image: ArunaMusicalWebsite,
+    link: "https://www.arunamusicalstore.com/",
+  },
+  {
+    id: 31,
+    title: "Euromechanical Website",
+    category: "Website",
+    description: "WordPress site",
+    image: EuromechanicalWebsite,
+    link: "https://www.euromechanical.com/",
+  },
+  {
+    id: 32,
+    title: "JLDevelop",
+    category: "Website",
+    description: "Static/HTML site",
+    image: Jld,
+    link: "https://jldevelop.com/",
+  },
 ];
+
 
 // -------- TESTIMONIALS (placeholders) --------
 export const testimonialData = [

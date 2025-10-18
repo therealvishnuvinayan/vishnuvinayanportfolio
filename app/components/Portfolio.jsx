@@ -9,7 +9,7 @@ import Title from "./Title";
 import Reveal from "./Reveal";
 
 const Portfolio = () => {
-  const categories = ["All", "Web App", "Mobile App", "Websites"];
+  const categories = ["All", "Web App", "Mobile App", "Website"];
 
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -17,10 +17,11 @@ const Portfolio = () => {
     setSelectedCategory(category);
   };
 
-  const filteredProjects =
-    selectedCategory === "All"
-      ? projectsData
-      : projectsData.filter((project) => project.category === selectedCategory);
+  const
+    filteredProjects =
+      selectedCategory === "All"
+        ? projectsData
+        : projectsData.filter((project) => project.category === selectedCategory);
 
   return (
     <section id="portfolio" className="portfolio lg:py-20 py-12">
