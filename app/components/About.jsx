@@ -10,21 +10,16 @@ const About = () => {
     <section id="about" className="lg:pb-20 pb-12">
       <div className="container">
         {/* TITLE START */}
-        <Title
-          subTitle="About Me"
-          title="I am here to help your next project!"
-        />
+        <Title subTitle="About Me" title="I am here to help your next project!" />
         {/* TITLE END */}
 
-        <div className="grid lg:grid-cols-2  xl:gap-20 gap-12">
+        <div className="grid lg:grid-cols-2 xl:gap-20 gap-12">
           {/* IMAGE */}
           <Reveal from={100}>
             <div className="w-full h-full relative px-10">
               <Image
                 src={AboutImg}
                 alt="About Image"
-                // width={500}
-                // height={500}
                 className="w-full h-full object-cover z-10 relative"
                 priority
               />
@@ -38,25 +33,45 @@ const About = () => {
             <Reveal from={100}>
               <p>
                 <span className="text-3xl text-primary font-medium">
-                  Welcome! I am Vishnu Vinayan,
+                  Welcome! I’m Vishnu Vinayan,
                 </span>{" "}
-                a dedicated and experienced <b>Senior Software Engineer</b>. My
-                passion lies in crafting robust and user-friendly web solutions
-                that seamlessly integrate both the front-end and back-end
-                aspects of a project.
+                a dedicated Senior Software Engineer with over 10 years of
+                professional experience, including 7+ years in the UAE.
               </p>
             </Reveal>
+
             <Reveal from={100}>
               <p>
-                My journey in <b>Web Development</b> has equipped me with{" "}
-                <b>JavaScript</b>. I love to design and develop creative & modern web applications, and
-                I am always eager to work with passion & timely.
+                I specialize in building scalable, high-performance web
+                applications using <b>React</b>, <b>Next.js</b>, <b>Node.js</b>,
+                and <b>Python</b>, with a focus on clean architecture and
+                seamless user experiences.
               </p>
             </Reveal>
+
+            <Reveal from={100}>
+              <p>
+                Throughout my career, I’ve contributed to projects across
+                e-commerce, digital gifting, and enterprise platforms, delivering
+                solutions that are both technically sound and user-focused. I’m
+                passionate about integrating AI-driven innovation into modern
+                web systems to make digital experiences more intelligent and
+                impactful.
+              </p>
+            </Reveal>
+
+            <Reveal from={100}>
+              <p>
+                Driven by curiosity and precision, I thrive on transforming
+                complex ideas into functional, efficient, and beautifully
+                crafted web products.
+              </p>
+            </Reveal>
+
             <div className="mt-8 flex flex-col sm:flex-row gap-8 sm:items-center">
               <Reveal from={100}>
                 <a
-                  href="/assets/images/Vishnu's-Resume.pdf"
+                  href="/assets/images/Vishnu-Vinayan-CV.pdf"
                   className="btn-primary btn flex items-center gap-2"
                   download
                 >
@@ -65,11 +80,7 @@ const About = () => {
                 </a>
               </Reveal>
               <Reveal from={100}>
-                <Button
-                  text="Get In Touch"
-                  link="#contact"
-                  className="btn-secondary"
-                />
+                <Button text="Get In Touch" link="#contact" className="btn-secondary" />
               </Reveal>
             </div>
           </div>
