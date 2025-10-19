@@ -1,3 +1,4 @@
+![Vishnu Vinayan Portfolio Banner](https://www.vishnuvinayan.com/assets/images/github-banner.png)
 # 🌐 Vishnu Vinayan — Personal Portfolio
 
 Welcome to the source code of my personal developer portfolio — **[vishnuvinayan.com](https://www.vishnuvinayan.com)**.  
