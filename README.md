@@ -37,12 +37,16 @@ Clone this repository and run it locally:
 git clone https://github.com/therealvishnuvinayan/vishnuvinayanportfolio.git
 cd vishnuvinayanportfolio
 npm install
-npm run dev```
+npm run dev
+```
 
-Open http://localhost:3000 in your browser to view it.
+Open **[http://localhost:3000](http://localhost:3000)** in your browser to view it.
 
-📁 Folder Structure
+---
 
+## 📁 Folder Structure
+
+```text
 .
 ├── app/
 │   ├── page.js          # Main landing page
@@ -51,49 +55,46 @@ Open http://localhost:3000 in your browser to view it.
 ├── public/              # Static assets and images
 ├── styles/              # Global styles and Tailwind configuration
 └── package.json
-
-🧠 About This Project
-
-This portfolio represents my journey as a Senior Software Engineer with over 10 years of experience (7+ in the UAE).
-It highlights my expertise in React.js, Next.js, Node.js, JavaScript, and Python, with a growing focus on AI-powered applications and intelligent web systems.
-
-Designed for both recruiters and collaborators, it reflects my professional brand — blending clean design, performance, and modern engineering practices.
-
-📬 Contact
-
-If you'd like to connect, collaborate, or discuss opportunities:
-
-🌎 Portfolio: vishnuvinayan.com
-
-💼 LinkedIn: linkedin.com/in/vishnuvinayan
-
-📧 Email: therealvishnuvinayan@gmail.com
-
-🧩 Projects Highlighted
-
-NYSAA (Apparel Group & Nykaa) — E-commerce beauty platform built with Next.js, Node.js, MongoDB, and TailwindCSS
-
-BrandsForLess (BFL Group) — Scalable e-commerce platform using React.js, Node.js, and React Native
-
-🧠 Inspiration
-
-This portfolio was crafted from scratch to represent my skills in full-stack engineering, UI/UX precision, and AI exploration —
-bringing together creativity and technology to build smarter, high-performance web applications.
-
-⚙️ License
-
-This project is open-sourced under the MIT License.
-Feel free to fork, adapt, or contribute responsibly.
-
-© 2025 Vishnu Vinayan | Built with ❤️ using Next.js & Tailwind CSS
-
+```
 
 ---
 
-✅ **How to use:**
-1. Copy everything above exactly as it is.  
-2. Paste it into your `README.md` file (inside your portfolio project).  
-3. Save → Commit → Push to GitHub.  
+## 🧠 About This Project
 
-Done.  
-Your GitHub portfolio will now display a **beautiful, professional README** — clean, structured, and complete.
+This portfolio represents my journey as a **Senior Software Engineer** with over **10 years of experience (7+ in the UAE)**.  
+It highlights my expertise in **React.js, Next.js, Node.js, JavaScript, and Python**, with a growing focus on **AI-powered applications** and intelligent web systems.
+
+Designed for both recruiters and collaborators, it reflects my professional brand — blending **clean design**, **performance**, and **modern engineering practices**.
+
+---
+
+## 📬 Contact
+
+If you'd like to connect, collaborate, or discuss opportunities:
+
+- 🌎 **Portfolio:** [vishnuvinayan.com](https://www.vishnuvinayan.com)
+- 💼 **LinkedIn:** [linkedin.com/in/vishnuvinayan](https://www.linkedin.com/in/vishnuvinayan/)
+- 📧 **Email:** therealvishnuvinayan@gmail.com
+
+---
+
+## 🧩 Projects Highlighted
+
+- **NYSAA (Apparel Group & Nykaa)** — E-commerce beauty platform built with **Next.js, Node.js, MongoDB, TailwindCSS**  
+- **BrandsForLess (BFL Group)** — Scalable e-commerce platform using **React.js, Node.js, React Native**
+
+---
+
+## 🧠 Inspiration
+
+This portfolio was crafted from scratch to represent my skills in **full-stack engineering**, **UI/UX precision**, and **AI exploration** —  
+bringing together creativity and technology to build smarter, high-performance web applications.
+
+---
+
+## ⚙️ License
+
+This project is open-sourced under the **MIT License**.  
+Feel free to fork, adapt, or contribute responsibly.
+
+© 2025 **Vishnu Vinayan** — Built with ❤️ using **Next.js** & **Tailwind CSS**
