@@ -71,7 +71,7 @@ const About = () => {
             <div className="mt-8 flex flex-col sm:flex-row gap-8 sm:items-center">
               <Reveal from={100}>
                 <a
-                  href="/assets/images/Vishnu-Vinayan-CV.pdf"
+                  href="/assets/images/Vishnu's-Resume.pdf"
                   className="btn-primary btn flex items-center gap-2"
                   download
                 >
