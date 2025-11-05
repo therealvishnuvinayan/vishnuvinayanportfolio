@@ -308,7 +308,6 @@ export const projectsData = [
     category: "Web App",
     description: "Next.js + Tailwind admin for marketplace ops (.NET + AWS)",
     image: BambooAdminMarketPlace,
-    link: "https://admin-mp.dev2.bamboocardportal.com/",
   },
   {
     id: 10,
@@ -316,7 +315,6 @@ export const projectsData = [
     category: "Web App",
     description: "React (CSS) admin dashboard (.NET + AWS backend)",
     image: BambooAdminDashboard,
-    link: "https://gti-rho.vercel.app/",
   },
   {
     id: 11,
@@ -324,7 +322,6 @@ export const projectsData = [
     category: "Web App",
     description: "React + Tailwind admin dashboard (.NET + AWS)",
     image: TamanaAdminDashboard,
-    link: "https://tamana-admin.bamboocardportal.com/",
   },
   {
     id: 12,
@@ -332,7 +329,6 @@ export const projectsData = [
     category: "Web App",
     description: "React + Tailwind mini-app (.NET + AWS)",
     image: TamanaBinanceMiniApp,
-    link: "https://tamana-admin.bamboocardportal.com/",
   },
 
   // ——— Mid / variety ———

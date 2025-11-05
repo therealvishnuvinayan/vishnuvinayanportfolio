@@ -3,6 +3,8 @@ import Link from "next/link";
 import { BsArrowRightShort } from "react-icons/bs";
 
 const PortfolioItem = ({ project }) => {
+  const hasLink =
+    typeof project?.link === "string" && project.link.trim().length > 0;
   return (
     <div className="w-full flex flex-col border border-solid dark:border-primary border-gray-300 border-opacity-20 rounded-md relative group shadow">
       <div className="absolute inset-0 rounded-md flex justify-end p-2">
@@ -12,16 +14,21 @@ const PortfolioItem = ({ project }) => {
             {project?.description}
           </p>
 
-          <Link
-            href={project?.link}
-            target="_blank"
-            className="mt-3 text-xl flex items-center justify-center gap-1"
-          >
-            <span className="group-hover:text-primary transition-all duration-500">
-              Visit
-            </span>
-            <BsArrowRightShort className="text-3xl -translate-x-4 group-hover:text-primary group-hover:translate-x-0 transition-all duration-500" />
-          </Link>
+          {hasLink ? (
+            <Link
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 text-xl flex items-center justify-center gap-1"
+            >
+              <span className="group-hover:text-primary transition-all duration-500">
+                Visit
+              </span>
+              <BsArrowRightShort className="text-3xl -translate-x-4 group-hover:text-primary group-hover:translate-x-0 transition-all duration-500" />
+            </Link>
+          ) :
+            null
+          }
         </div>
         <div className="px-5 py-3 w-full h-fit mt-auto bg-gray-50 dark:bg-secondary bg-opacity-80 dark:bg-opacity-90 backdrop-blur-sm rounded-md group-hover:opacity-0 group-hover:scale-0 transition-all duration-500">
           <h3 className="text-2xl font-semibold line-clamp-1">
